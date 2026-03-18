@@ -4,7 +4,7 @@ class HomePage:
         self.produto = ".inventory_item"
 
     def verificar_login_sucesso(self):
-        return self.page.locator(self.produto).is_visible()
+        return self.page.locator(self.produto).count() > 0
 
     def adicionar_produto_carrinho(self):
         self.page.click("text=Add to cart")
