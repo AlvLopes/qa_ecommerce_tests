@@ -26,6 +26,7 @@ Automatizar fluxos reais de um sistema de e-commerce, garantindo a qualidade das
 
 ## 📁 Estrutura do projeto
 qa_ecommerce_tests/
+
 ├── pages/ # Page Objects (interação com a UI)
 
 ├── tests/ # Casos de teste
