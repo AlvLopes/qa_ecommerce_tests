@@ -94,6 +94,12 @@ adiciona produto ao carrinho
 
 valida presença do item
 
+✔ Teste de Validação de Página
+
+valida o título da página após login
+
+garante que o usuário foi redirecionado corretamente
+
 🧠 Boas práticas aplicadas
 
 Page Object Model (POM)
