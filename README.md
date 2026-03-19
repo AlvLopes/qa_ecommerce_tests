@@ -26,10 +26,15 @@ Automatizar fluxos reais de um sistema de e-commerce, garantindo a qualidade das
 
 ## 📁 Estrutura do projeto
 qa_ecommerce_tests/
+
 ├── pages/ # Page Objects (interação com a UI)
+
 ├── tests/ # Casos de teste
+
 ├── conftest.py # Configurações globais
+
 ├── pytest.ini # Configuração do pytest
+
 ├── report.html # Relatório de execução
 
 
@@ -113,27 +118,3 @@ Validações confiáveis (count() > 0)
 
  Relatórios avançados (Allure)
 
-
----
-
-# 🔥 O que esse README faz por você
-
-Ele mostra para recrutador:
-
-✔ você sabe documentar  
-✔ você entende fluxo de teste  
-✔ você conhece boas práticas  
-✔ você pensa como QA de verdade  
-
----
-
-# 💡 Upgrade opcional (forte)
-
-Se quiser deixar ainda mais profissional:
-
-👉 Adicione no topo:
-
-
-## 📸 Exemplo de relatório
-
-![report](./assets/report.png)
