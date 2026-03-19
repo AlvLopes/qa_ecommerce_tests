@@ -11,3 +11,6 @@ class HomePage:
 
     def ir_para_carrinho(self):
         self.page.click(".shopping_cart_link")
+
+    def obter_titulo_pagina(self):
+        return self.page.locator(".title").text_content()
